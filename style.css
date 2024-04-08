@@ -1,0 +1,35 @@
+#photo{
+width: 300PX;
+img{
+    display: inline;
+    border-color: black;
+border-style: solid;
+}
+
+}
+.about{
+    display: inline-block;
+    border-style:solid ;
+    border-color: black;
+    text-align: center;
+
+    p{
+        display: inline;
+        text-decoration:dotted ;
+        transition: all;
+    }
+}
+.wel{
+    padding: 2px;
+    border: red ;
+    border-style: double dashed;
+     display: inline;
+    background-color: burlywood;
+}
+.bottom{
+    display: inline;
+    background-clip: border-box;
+}
+div{
+    display: inline;
+}
