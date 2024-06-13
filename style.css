@@ -1,35 +1,107 @@
-#photo{
-width: 300PX;
-img{
-    display: inline;
-    border-color: black;
-border-style: solid;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
-}
-.about{
-    display: inline-block;
-    border-style:solid ;
-    border-color: black;
+header {
     text-align: center;
+    padding: 50px;
+    background-color: #4CAF50;
+    color: white;
+}
 
-    p{
-        display: inline;
-        text-decoration:dotted ;
-        transition: all;
-    }
+h1, h2 {
+    font-weight: 700;
 }
-.wel{
-    padding: 2px;
-    border: red ;
-    border-style: double dashed;
-     display: inline;
-    background-color: burlywood;
+
+#intro {
+    text-align: center;
+    margin-bottom: 50px;
 }
-.bottom{
-    display: inline;
-    background-clip: border-box;
+
+#intro h2 {
+    color: #4CAF50;
 }
-div{
-    display: inline;
+
+#photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+form {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer table {
+    width: 100%;
+}
+
+footer td {
+    padding: 10px;
+}
+
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
