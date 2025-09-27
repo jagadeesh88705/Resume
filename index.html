@@ -3,138 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jagadeesh Resume</title>
+    <title>Jagadeesh M | EEE Student & Developer</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>WELCOME</h1>
+    <div id="preloader">
+        <div class="loader-text">JM</div>
+    </div>
+
+    <div class="cursor"></div>
+
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo magnetic">JM</a>
+            <div class="menu-toggle magnetic">
+                <div class="hamburger"></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link magnetic"><span>About</span></a></li>
+                <li><a href="#education" class="nav-link magnetic"><span>Education</span></a></li>
+                <li><a href="#skills" class="nav-link magnetic"><span>Skills</span></a></li>
+                <li><a href="#activities" class="nav-link magnetic"><span>Projects</span></a></li>
+                <li><a href="#contact" class="nav-link magnetic"><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <div id="photo-container" class="reveal">
+                <img src="SAVE_20230408_175632.jpg" alt="Jagadeesh's Photo">
+            </div>
+            <h1 class="reveal">Jagadeesh M</h1>
+            <p class="reveal">Aspiring Electrical & Electronics Engineer with a passion for technology and development.</p>
+        </div>
     </header>
     
-    <section id="intro">
-        <h2>Hi, I'm Jagadeesh</h2>
-        <div id="photo">
-            <img src="SAVE_20230408_175632.jpg" alt="Jagadeesh's Photo">
-        </div>
-    </section>
+    <main class="container">
+        <section id="about" class="card reveal">
+            <h2>01. About Me</h2>
+            <p>I am a B.E student with the objective to work for a growing organization in a competitive environment. I aim to enhance my experience through continuous learning, teamwork, and by applying my skills to solve challenging problems.</p>
+        </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm Jagadeesh M, a B.E student. I intend to work for a growing organization in a competitive environment among dedicated professionals and enhance my experience through continuous learning and teamwork.</p>
-        <hr>
-    </section>
+        <section id="education" class="card reveal">
+            <h2>02. Education</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Qualification</th>
+                        <th>Institution</th>
+                        <th>Board/University</th>
+                        <th>Score</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>B.E (EEE)</td>
+                        <td>VSB Engineering College, Karur</td>
+                        <td>Autonomous</td>
+                        <td>8.79 CGPA</td>
+                        <td>2025</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Sri Matric Hr. Sec School, Namakkal</td>
+                        <td>State Board</td>
+                        <td>94.8%</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>
+                        <td>SSLC</td>
+                        <td>Govt High School, Namakkal</td>
+                        <td>State Board</td>
+                        <td>88.2%</td>
+                        <td>2019</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <table>
-            <tr>
-                <th>Qualification</th>
-                <th>Institution Name</th>
-                <th>Board/University</th>
-                <th>Percentage</th>
-                <th>Year of Passing</th>
-            </tr>
-            <tr>
-                <td>SSLC</td>
-                <td>Govt High School, Namakkal</td>
-                <td>State Board</td>
-                <td>88.2%</td>
-                <td>2019</td>
-            </tr>
-            <tr>
-                <td>HSC</td>
-                <td>Sri Matric Hr. Sec School, Namakkal</td>
-                <td>State Board</td>
-                <td>94.8%</td>
-                <td>2021</td>
-            </tr>
-            <tr>
-                <td>B.E EEE</td>
-                <td>VSB Engineering College, Karur</td>
-                <td>Autonomous</td>
-                <td>8.79 (upto 5th Semester)</td>
-                <td>2025</td>
-            </tr>
-        </table>
-    </section>
+        <section id="skills" class="card reveal">
+            <h2>03. Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">C</div>
+                <div class="skill-tag">Java</div>
+                <div class="skill-tag">Python</div>
+                <div class="skill-tag">MySQL</div>
+                <div class="skill-tag">IoT</div>
+                <div class="skill-tag">Embedded Systems</div>
+                <div class="skill-tag">AI Basics</div>
+                <div class="skill-tag">Microcontrollers</div>
+            </div>
+        </section>
 
-    <section id="skills">
-        <h2>Soft Skills</h2>
-        <p>Basics of C, Java , Python and MySQL</p>
-    </section>
+        <section id="activities" class="card reveal">
+            <h2>04. Projects & Activities</h2>
+            <ul class="project-list">
+                <li>
+                    <h3>Security System for Railway Lines (IoT)</h3>
+                    <p>Designed and presented an IoT-based system to detect unusual entries on or near railway tracks, triggering local light/sound alerts and sending notifications to authorities.</p>
+                    <a href="IMG-20230315-WA0006.jpg" class="magnetic">View Image <span>&rarr;</span></a>
+                </li>
+                <li>
+                    <h3>Automatic Braking System</h3>
+                    <p>Developed a concept for an automated braking system to prevent collisions by detecting adjacent vehicles or obstacles.</p>
+                </li>
+                 <li>
+                    <h3>NPTEL Certification</h3>
+                    <p>Successfully completed the 12-week NPTEL course on Microprocessors and Microcontrollers in 2023.</p>
+                    <a href="IMG-20230510-WA0005.jpg" class="magnetic">View Certificate <span>&rarr;</span></a>
+                </li>
+                <li>
+                    <h3>Internships</h3>
+                    <p>Completed internships in "Artificial Intelligence" with Gateway Software Solutions and "Embedded Systems and Home IoT" with Codebind Technologies.</p>
+                </li>
+            </ul>
+        </section>
 
-    <section id="activities">
-        <h2>Co-curricular Activities</h2>
-        <ul>
-            <li>NPTEL: Microprocessor and Microcontroller (2023) - <a href="IMG-20230510-WA0005.jpg">Click to view Certificate</a></li>
-            <li>Internship:
-                <ul>
-                    <li>Completed “Artificial Intelligence” internship offered by Gateway Software Solutions through virtual mode from July 2023-Aug 2023.</li>
-                    <li>Completed “Embedded System and Home IoT” internship offered by Codebind Technologies in 2022. <a href="Jagadeeshinternship.pdf">Click</a></li>
-                </ul>
-            </li>
-            <li>Project: Presented “Security System for Railway Lines” based on IoT - <a href="IMG-20230315-WA0006.jpg">Click to view the image</a></li>
-            <li><b>Automatic Braking System:</b> Implementing automated braking system aimed at preventing collisions by swiftly detecting and responding to adjacent vehicles or obstacles.</li>
-            <li><b>ONLINE FOOD ORDERING SYSTEM </b>-DESIGNED AND IMPLEMENTED A ROBUST SYSTEM THAT TRACKS FOOD
-                ORDERS AND INTEGRATES SEAMLESSLY WITH THE
-                DATABASE TO OFFER A USER-FRIENDLY EXPERIENCE FOR
-                BOTH CUSTOMERS AND RESTAURANT OWNERS.s.</li>
-        </ul>
-    </section>
-
-    <section id="achievements">
-        <h2>Achievements</h2>
-        <ul>
-            <li>Participated in paper presentation at KCG College of Technology on "Wireless power transfer of EV"</li>
-            <li>Got II prize in Robotrivia event at KCG College of Technology</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="inputForm" action="https://sheetdb.io/api/v1/c1bgxjkm9t4cj">
-            <label for="textInput">Feel free to ask Suggestions/Corrections</label><br>
-            <input type="text" id="textInput" placeholder="Enter name/mail-id" name="data[Name]" required><br>
-            <label for="Suggestion"></label>
-            <input type="text" placeholder="Enter your Suggestions" name="data[Suggestion]"><br>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+        <section id="contact" class="card reveal">
+            <h2>05. Get In Touch</h2>
+            <p>I'm currently seeking new opportunities. Whether you have a question or just want to say hi, my inbox is always open!</p>
+            <a href="mailto:jagadeeshsanjay88705@gmail.com" class="cta-button magnetic"><span>Say Hello</span></a>
+        </section>
+    </main>
 
     <footer>
-        <table class="bottom">
-            <tr>
-                <td><a href="hi.html">Personal Details</a></td>
-                <td><a href="http://www.linkedin.com/in/jagadeesh-m-658a02249">LinkedIn</a></td>
-                <td><a href="more.html">More</a></td>
-                <td><a href="https://jagadeesh88705.github.io/all/">Main Page</a></td>
-            </tr>
-            <tr>
-                <td>Contact us</td>
-                <td>8870582647</td>
-                <td>Twitter: @Jagadee65192707</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><a href="mailto:jagadeeshsanjay88705@gmail.com">jagadeeshsanjay88705@gmail.com</a></td>
-            </tr>
-        </table>
+        <p>Designed & Built by Jagadeesh M</p>
+        <div class="social-links">
+             <a href="http://www.linkedin.com/in/jagadeesh-m-658a02249" target="_blank" class="magnetic">LinkedIn</a>
+             <span>&bull;</span>
+             <a href="https://jagadeesh88705.github.io/all/" target="_blank" class="magnetic">GitHub</a>
+        </div>
     </footer>
 
-    <script>
-        var form = document.getElementById('inputForm');
-        form.addEventListener("submit", function(e) {
-            e.preventDefault();
-            fetch(form.action, {
-                method: "POST",
-                body: new FormData(document.getElementById("inputForm")),
-            }).then(
-                response => response.json()
-            ).then(() => {
-                window.open('page2.html', '_blank');
-            });
-        });
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    
+    <script src="script.js"></script>
 </body>
 </html>
